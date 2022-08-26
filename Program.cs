@@ -10,5 +10,5 @@ string url = $"https://yandex.ru/maps/213/moscow/?l=stv%2Csta&ll={lon}%2C{lat}&p
     $"direction%5D=0.0%2C0.0&panorama%5Bfull%5D=true&panorama%5Bpoint%5D={lon}%2C{lat}" +
     $"&panorama%5Bspan%5D=99.608853%2C60.000000&z=100";
 
-string path = "C:\\Users\\igorb\\AppData\\Local\\Yandex\\YandexBrowser\\Application\\browser.exe";
+string path = "browser.exe";
 System.Diagnostics.Process.Start(path, url);
